@@ -1,0 +1,10 @@
+#Vamos ver se o número é ímpar ou par
+# %, 7 % 2 = 1 
+# 1 = true 
+# 0 = false 
+number = int(input("Digite um número para checar: "))  
+
+if number % 2:     
+  print("Seu número é ímpar") 
+else:     
+  print("Seu número é par")
